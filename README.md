@@ -22,10 +22,10 @@ Working Principle: The Arduino is coded with the Arduino IDE within Tinkercad. T
 Applications : Although this prototype employs a basic LED, it exemplifies the reasoning involved in commanding real-world devices such as home lighting systems, streetlights, or automated indicators. It lays the basis for sophisticated smart home systems, where user input might soon be substituted with mobile apps, sensors, or voice assistants. This simulation is an excellent place to start for beginners to learn IoT and automation with Arduino, providing both hands-on learning and project-oriented application.
 
 code : 
-char incomingchar;
-void setup() {
-serial.begin(9600);
-pinMode(13,OUTPUT);
+**char incomingchar;**
+**void setup() {**
+**serial.begin(9600);**
+**pinMode(13,OUTPUT);**
 }
 void loop() {
 if (serial.available()) {
