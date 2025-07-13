@@ -22,22 +22,36 @@ Working Principle: The Arduino is coded with the Arduino IDE within Tinkercad. T
 Applications : Although this prototype employs a basic LED, it exemplifies the reasoning involved in commanding real-world devices such as home lighting systems, streetlights, or automated indicators. It lays the basis for sophisticated smart home systems, where user input might soon be substituted with mobile apps, sensors, or voice assistants. This simulation is an excellent place to start for beginners to learn IoT and automation with Arduino, providing both hands-on learning and project-oriented application.
 
 code : 
-**char incomingchar;**
-**void setup() {**
-**serial.begin(9600);**
-**pinMode(13,OUTPUT);**
-}
-void loop() {
-if (serial.available()) {
-incomingchar = serial.read();
 
-if(incomingchar  == '1'){
-digitalWrite (13, HIGH);
-)elseif (incomingchar =='0') {
-digitalWrite (13, LOW);
-  }
- }
-}
+**char incomingchar;**
+
+**void setup() {**
+
+**serial.begin(9600);**
+
+**pinMode(13,OUTPUT);**
+
+**}**
+
+**void loop() {**
+
+**if (serial.available()) {**
+
+**incomingchar = serial.read();**
+
+**if(incomingchar  == '1'){**
+
+**digitalWrite (13, HIGH);**
+
+**)elseif (incomingchar =='0') {**
+
+**digitalWrite (13, LOW);**
+
+  **}**
+  
+ **}**
+ 
+**}**
 
 Overview of code : • The variable incomingChar is used to store the character received from the Serial Monitor. • In the setup() function: Serial.begin(9600); initializes serial communication at a baud rate of 9600 bps. pinMode(13, OUTPUT); configures pin 13 as an output for controlling the LED. • In the loop() function: It checks if any data is available on the Serial Monitor using Serial.available(). Reads the input character using Serial.read(). If the input is '1', the LED is turned ON using digitalWrite(13, HIGH). If the input is '0', the LED is turned OFF using digitalWrite(13, LOW).
 
