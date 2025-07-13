@@ -55,3 +55,5 @@ code :
 
 Overview of code : • The variable incomingChar is used to store the character received from the Serial Monitor. • In the setup() function: Serial.begin(9600); initializes serial communication at a baud rate of 9600 bps. pinMode(13, OUTPUT); configures pin 13 as an output for controlling the LED. • In the loop() function: It checks if any data is available on the Serial Monitor using Serial.available(). Reads the input character using Serial.read(). If the input is '1', the LED is turned ON using digitalWrite(13, HIGH). If the input is '0', the LED is turned OFF using digitalWrite(13, LOW).
 
+# OUTPUT
+**When light is on (serial monitor : 1)**
