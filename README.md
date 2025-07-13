@@ -12,7 +12,7 @@
 
 **MENTOR**: NEELA SANTOSH
 
-#DESCRIPTION 
+# DESCRIPTION 
 Description: This project illustrates a basic and practical Smart Light Control System with an Arduino UNO microcontroller and the Tinkercad Circuits simulation environment. The purpose of this system is to operate an LED light digitally via commands inputted through the Serial Monitor, emulating an intelligent automation system where lighting is controlled programmatically as opposed to manually. The prototype is meant to react to input from the user through the Serial Monitor, where: • Input '1' makes the LED ON • Input '0' makes the LED OFF This is a simple way of digital control to demonstrate that how smart home automation systems in recent times accept signals from apps, sensors, or IoT platforms to switch lights and other appliances on/off.
 
 Components Used: • Arduino UNO • Light Bulb • 220-ohm resistor (to restrict current to the LED) • Serial Monitor (as the user input interface)
