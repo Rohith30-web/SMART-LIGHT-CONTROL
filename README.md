@@ -57,3 +57,7 @@ Overview of code : • The variable incomingChar is used to store the character 
 
 # OUTPUT
 **When light is on (serial monitor : 1)**
+![Image](https://github.com/user-attachments/assets/8e98cf3c-2d39-4f3a-927e-ff56adc2d9c5)
+
+**When light is off (serial monitor : 0)**
+
